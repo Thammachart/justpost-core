@@ -18,7 +18,6 @@ public class TestMessageListUseCase {
         managedList = Arrays.asList(new Message("T1", "M1"), new Message("T2", "M2"));
     }
 
-
     @Test
     public void testExecute() {
         MessageRepositoryInterface mockedRepo = mock(MessageRepositoryInterface.class);
